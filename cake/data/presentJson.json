@@ -1,0 +1,47 @@
+[
+    {
+        "aid": "237",
+        "asrc": "images/a56.jpg",
+        "atitle": "如意饼",
+        "afeature": "伴手礼",
+        "aprice": "￥5.00/个"
+    },
+    {
+        "aid": "238",
+        "asrc": "images/a57.jpg",
+        "atitle": "蟹派大礼盒",
+        "afeature": "伴手礼",
+        "aprice": "￥38.00/个"
+    },
+    {
+        "aid": "239",
+        "asrc": "images/a58.jpg",
+        "atitle": "凤梨酥礼盒（6粒装）",
+        "afeature": "伴手礼",
+        "aprice": "￥45.80/个"
+    },
+    {
+        "aid": "240",
+        "asrc": "images/a59.jpg",
+        "atitle": "凤梨酥礼盒（9粒/12粒装）",
+        "afeature": "伴手礼",
+        "aprice": "￥68.00/个"
+    },
+    {
+        "aid":"ad"
+    },
+    {
+        "aid": "241",
+        "asrc": "images/a60.jpg",
+        "atitle": "喜蛋宝宝诞生礼",
+        "afeature": "伴手礼",
+        "aprice": "￥8.00/个"
+    },
+    {
+        "aid": "242",
+        "asrc": "images/a61.jpg",
+        "atitle": "年轮蛋糕礼盒装",
+        "afeature": "伴手礼",
+        "aprice": "￥68.50/个"
+    }
+]

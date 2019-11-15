@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+	</head>
+	<link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/dl.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+   
+	<body>
+		<div id="nav"></div>
+		
+	
+		<div class="center">
+            <div class="passport-page-wrap clearfix" style="background-image:url(images/big.jpg)">
+               <div class="page">
+               	   <div class="signin">
+               	   	  <div class="signin-title">
+               	   	  	 <span>账户密码登录</span>
+               	   	  </div>
+               	   	  <form class="dlform" action="php/login.php" method="post">
+               	   	  	   <ul>
+               	   	  	   	  <li class="qaq">
+               	   	  	   	  	<span class="yh">
+               	   	  	   	  		<input class="x-input" id="dx"  type="text" name="uname" value placeholder="用户名"/>
+               	   	  	   	  	</span>
+               	   	  	   	  </li>
+               	   	  	   	  <li class="qaq">
+               	   	  	   	  	 <span class="yh">
+               	   	  	   	  	 	 <input class="x-input"  type="password" id="pas" name="password" placeholder="密码"/>
+               	   	  	   	  	 </span>
+               	   	  	   	  </li>
+               	   	  	   	  <li class="form-item-normal">
+                                   <span class="form-act">
+                                   <button type="submit" class="btn btn-major btn-big" rel="_request"><span><span>登　录</span></span></button>
+                                   <input type="checkbox" style="vertical-align: middle; " id="mdl"/><span class=".po-r-b">7天免登录</span></br>
+                                   <a href="zhuce.html" class="po-r-b">免费注册</a>
+                                   </span>
+                              </li>
+               	   	  	   </ul>	
+               	   	  </form>
+               	   	  
+               	   </div>
+               </div>
+           	
+           </div>
+
+        </div>
+        <div id="foot"></div>
+         <script src="js/jquery.min.js"></script>
+         <script src="js/cookie.js"></script>
+		
+			
+		
+		<script type="text/javascript">
+			$("#nav").load("head.html");
+			$("#foot").load("foot.html");
+			</script>
+	</body>
+	
+	
+	
+</html>

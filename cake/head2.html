@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/head.css" />
+	<body>
+		<div class="header bangxing" >
+    <div class="topbar">
+        <div class="page">
+            <div class="right-link fr">
+                <div class="qr">
+	<span>微信公众号</span>
+	<div class="qr-img">
+		<img src="images/4LS6S]UX~1[%TQUZCH{35G6.png" alt="微信公众号" width="140" height="140">
+	</div>		
+</div>
+	
+	
+
+
+            </div>  
+            <div class="login-bar fr">
+                <span id="loginBar_188" class="fl" style="display: block;">
+    
+    <a href="denglu.html" class="fl white" id="helloBtn">登录</a>
+    <span class="dividing fl">/</span>
+    <a href="zhuce.html" class="fl white">注册</a>
+</span>
+
+<div id="memberBar_188" style="display:none;position: relative;" class="member-bar fl">
+    <a href="/index.php/member.html" class="fl">个人中心</a>
+    <div class="member-link">
+        <a href="#">我的订单</a>
+        <a href="#">我的优惠券</a>
+        <a href="#">退出</a>
+    </div>          
+</div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="page">
+            <div class="header-left">
+                <div class="ad-list">
+  <ul>
+        <li class="item-1">         
+                    <img src="images/tel.png" alt="400-820-5000<br>9:00-21:00">
+            <span>400-820-5000<br>9:00-21:00</span>
+               
+    </li>
+        <li class="item-2">         
+        <a href="#">            <img src="images/qq.png" alt="在线客服">
+            <span>在线客服</span>
+        </a>       
+    </li>
+      </ul>  
+</div>
+
+            </div>
+            <div class="header-c">
+                <div class="logo">
+                    <a href="/">
+    <img alt="Ecstore-demo" src="images/aaa.png" border="0">
+</a>
+                </div>
+                <div class="menu">
+                    <ul class="nav-list clearfix">
+        <li class="nav-item"><a  class=" dj0">首页</a></li>
+        <li class="nav-item"><a class="dj1 active" >蛋糕</a></li>
+        <li class="nav-item"><a class="dj2" >零食</a></li>
+        <li class="nav-item"><a class="dj3" >伴手礼</a></li>
+        <li class="nav-item"><a class="dj4">店铺查找</a></li>
+        <li class="nav-item"><a  class="dj5" >企业理念</a></li>
+        <li class="nav-item"><a  class="dj6" target="_blank">团购合作</a></li>
+    </ul>
+
+                </div>
+            </div>          
+          <div class="header-cart">
+                <a  class="cart-icon goods">
+       <span class="num op-cart-number" style="display: none;"></span></a>
+
+            </div>
+        </div>
+    </div>     
+</div>
+    </body>
+    <script src="js/jquery.min.js"></script>
+	<script>
+	     function getSearchByName(key){
+	     	 var s = decodeURIComponent(location.search);
+	     	 if(!!s){
+	     	 	var arr =s.substr(1).split("&")
+	     	 	for (var i =0 ;i<arr.length;i++) {
+	     	 		if(arr[i].split("=")[0]===key){
+	     	 			return arr[i].split("=")[1]
+	     	 		};
+	     	 	}
+	     	 }
+	     	 return "";
+	     }
+          console.log(getSearchByName("uname"))
+
+            if(!!getSearchByName("uname")){
+            	var helloBtn = document.getElementById("helloBtn");
+            	//console.log(helloBtn)
+            	helloBtn.innerHTML = getSearchByName("uname");
+            	helloBtn.href="#"
+            }
+             $('.dj0').click(function(){
+             
+              var  nm=$('#helloBtn').html();
+                location.href="first.html?uname="+nm;
+            });
+            $('.dj1').click(function(){
+            	 
+              var  nm=$('#helloBtn').html();
+                location.href="contList.html?uname="+nm;
+            });
+            $('.dj2').click(function(){
+              var  nm=$('#helloBtn').html();
+                location.href="snacks.html?uname="+nm;
+            });
+            $('.dj3').click(function(){
+              var  nm=$('#helloBtn').html();
+                location.href="present.html?uname="+nm;
+            });
+            $('.dj4').click(function(){
+              var  nm=$('#helloBtn').html();
+                location.href="store.html?uname="+nm;
+            });
+            $('.dj5').click(function(){
+              var  nm=$('#helloBtn').html();
+                location.href="enterprise.html?uname="+nm;
+            });
+            $('.dj6').click(function(){
+              var  nm=$('#helloBtn').html();
+                location.href="team.html?uname="+nm;
+            });
+            $('.goods').click(function(){
+              var  nm=$('#helloBtn').html();
+                location.href="goods.html?uname="+nm;
+            });
+	</script>
+</html>

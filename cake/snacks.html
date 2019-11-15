@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>零食</title>
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/conmon.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+</head>
+
+<body>
+        <div class="l_header">
+
+            </div>
+           
+    <div class=" content">
+        <div class="us_classify">
+            <div class="us_lists">
+                <div class="lists_div">
+                    <ul class="colearfix clearfix">
+                        <!-- <li>
+                            <div class="goods_pic">
+                                <img src="./images/a01.jpg">
+                            </div>
+                            <div class="goods_name">
+                                <em>威廉巧克力慕斯</em>
+                                <i class="icon_sx"></i>
+                                <br>
+                                <span class="text-tag">慕斯稀奶油</span>
+                            </div>
+                            <div class="goods_price">
+                                <div class="price"><em>￥158.00</em>/个</div>
+                                <a class="buy-cart">加入购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="goods_pic">
+                                <img src="./images/a02.jpg">
+                            </div>
+                            <div class="goods_name">
+                                <em>威廉巧克力慕斯</em>
+                                <i class="icon_sx"></i>
+                                <br>
+                                <span class="text-tag">稀奶油</span>
+                            </div>
+                            <div class="goods_price">
+                                <div class="price"><em>￥158.00</em>/个</div>
+                                <a class="buy-cart">加入购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="goods_pic">
+                                <img src="./images/a03.jpg">
+                            </div>
+                            <div class="goods_name">
+                                <em>威廉巧克力慕斯</em>
+                                <i class="icon_sx"></i>
+                                <br>
+                                <span class="text-tag">儿童蛋糕</span>
+                            </div>
+                            <div class="goods_price">
+                                <div class="price"><em>￥168.00</em>/个</div>
+                                <a class="buy-cart">加入购物车</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="goods_pic">
+                                <img src="./images/a04.jpg">
+                            </div>
+                            <div class="goods_name">
+                                <em>威廉巧克力慕斯</em>
+                                <i class="icon_sx"></i>
+                                <br>
+                                <span class="text-tag">慕斯稀奶油</span>
+                            </div>
+                            <div class="goods_price">
+                                <div class="price"><em>￥228.00</em>/个</div>
+                                <a class="buy-cart">加入购物车</a>
+                            </div>
+                        </li>
+                        <li class="bg"></li>  -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.8.3.min.js"></script>
+
+    <script>
+        $.getJSON("data/snacksJson.json", function (res) {
+            //console.log(1);
+
+            var str = "";
+            if(!!decodeURIComponent(location.search.substr(1)).split("=")[1]){
+		var name=decodeURIComponent(location.search.substr(1)).split("=")[1];
+
+	    }else{
+		    var name='';
+
+    }
+            //var aname = decodeURIComponent(location.search).substr(1).split("&")[0];
+
+            $.each(res, function (index, ele) {
+                //console.log(index,ele);
+                //console.log(ele.kid);
+                if (ele.aid == "ad") {
+                    str += `<li id="ad"></li>`;
+                } else {
+
+                    str += `
+                        <li>
+                            <div class="goods_pic">
+                                <a class='aid' lid="${ele.aid}" href="details.html?lid=${ele.aid}&uname=${name}" id=${ele.aid}>
+                                    <img data-src='${ele.asrc}' id='listImg'>
+                                </a>
+                            </div>
+                            <div class="goods_name">
+                                <em>${ele.atitle}</em>
+                                <br>
+                                <span class="text-tag">${ele.afeature}</span>
+                            </div>
+                            <div class="goods_price">
+                                <div class="price"><em>${ele.aprice}</em>/个</div>
+                                <a class="buy-cart" >加入购物车 ></a>
+                            </div>
+                        </li>
+                    `;
+                }
+
+                $(".lists_div>ul").html(str);
+            });
+            go();
+            goodsclick();
+
+
+        });
+
+        function go() {
+            function offset(obj) {
+                var l = 0;
+                var t = 0;
+                var bdl = obj.clientLeft;//目标元素的左边框宽度
+                var bdt = obj.clientTop;//目标元素的上边框宽度
+                while (obj) {//循环累加目标元素到定位父级的距离
+                    l = l + obj.offsetLeft + obj.clientLeft;
+                    t = t + obj.offsetTop + obj.clientTop;
+                    obj = obj.offsetParent;//每次循环之后指向离他最近的定位父级
+                }
+                return { left: l - bdl, top: t - bdt };
+            }
+
+            var imgs = document.querySelectorAll('.goods_pic img');
+            //console.log(imgs);
+
+            function load() {
+                var scrollT = document.documentElement.scrollTop || document.body.scrollTop;
+                var windowH = document.documentElement.clientHeight || document.body.clientHeight;
+
+                for (var i = 0, len = imgs.length; i < len; i++) {
+                    if (offset(imgs[i]).top <= (scrollT + windowH)) {
+                        imgs[i].src = imgs[i].getAttribute('data-src');
+                    }
+                }
+            }
+            load();
+
+            window.onscroll = function () {
+                load();
+            }
+        };
+        
+//点击购物车按钮
+function    goodsclick(){
+        if(!!decodeURIComponent(location.search.substr(1)).split("&")[1].split("=")[1]){
+            var name=decodeURIComponent(location.search.substr(1)).split("&")[1].split("=")[1];
+
+        }else{
+            var name='';
+  
+        }
+        // console.log(name)
+        var  goodsbid=$('.bid').attr('bid');
+            // console.log(goodsbid);
+           
+        var goods='Goods'+'='+name;
+        //点击弹出提示层
+        $('.l_add1').click(function(){
+            $('.l_tk').show();
+            setTimeout(function(){
+                $('.l_tk').hide();
+            },5000);
+        });
+      var  size='';
+        //点击保存数据
+        $('.l_add1').click(function () {
+             size = $('.size').attr('cc');
+            var atk = [{ 'GoodsId': goodsbid, 'count': 1,'size':size}];
+            console.log(size);
+            //需要保存的数据有bid $('.bid').attr('bid')
+            //数量 count  在点击的时候去加减
+            //尺寸 size    $('.size').attr('cc');
+            //用户名 name  var name=decodeURIComponent(location.search.substr(1)).split("&")[1].split("=")[1];
+            //在本地保存中保存数据
+            if (!!localStorage.getItem('Goods'+'='+name)){//有数据执行这里
+                var hqGoods = JSON.parse(localStorage.getItem('Goods'+'='+name));
+                // console.log(hqGoods);
+                var flag = false;
+                for (var i = 0; i < hqGoods.length; i++){
+                   
+                    if(hqGoods[i].GoodsId==goodsbid){
+                       if(hqGoods[i].size===size){
+                        console.log(1)
+                        hqGoods[i].count++;
+                        flag = true;//表示bid已经存在
+                        break;
+                         
+                       }
+
+                      
+                    
+                }
+            }
+            if(!flag){
+                hqGoods.push({ 'GoodsId': goodsbid, 'count': 1,'size':size});
+            }
+            localStorage.setItem(goods,JSON.stringify(hqGoods))
+            }else{//没数据执行这里
+                localStorage.setItem(goods, JSON.stringify(atk));
+            }
+          
+         });
+
+    }
+
+    </script>
+
+    <div class="l_footer">
+
+    </div>
+    
+    <script>
+        $(function () {
+            $('.l_header').load('head3.html', function () { });
+            $('.l_footer').load('foot.html', function () { });
+        });
+    </script>
+ 
+</body>
+
+</html>

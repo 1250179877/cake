@@ -1,0 +1,25 @@
+.footer {
+    background-color:  	#791a1e;
+    color: #dbdbdb;
+}
+.footer-logo {
+    text-align: center;
+    padding: 35px 0 30px;
+}
+.footer-link .link-list {
+    text-align: center;
+}
+.footer-link .link-list .item {
+    display: inline-block;
+    margin: 0 40px;
+}	
+.footer-link .item a {
+    font-weight: bold;
+    color: #fff;
+}
+
+.theme-footer {
+    text-align: center;
+    line-height: 1.8;
+    margin-top: 10px;
+}

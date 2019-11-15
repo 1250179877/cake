@@ -1,0 +1,715 @@
+[
+    {   
+        "lid":"1",
+        "ltpx":["images/ltp1.1.jpg","images/ltp1.2.jpg","images/ltp1.3.jpg"],
+        "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+        "name":"萌萌熊",
+        "category":"可爱的小熊唤起童心，柔软的戚风和爽滑果冻布丁，伴随着抹茶风味的奶油一起融化在舌尖。",
+        "Price":"168.00",
+        "kind":"儿童蛋糕",
+        "size":["6英寸","8英寸"],
+        "Varieties":"1"
+    },
+    {   
+        "lid":"2",
+        "ltpx":["images/ltp2.1.jpg","images/ltp2.2.jpg","images/ltp2.3.jpg"],
+        "ltpd":["images/ltp2.4.jpg","images/ltp2.5.jpg","images/ltp2.6.jpg","images/ltp2.7.jpg","images/ltp2.8.jpg"],
+        "name":"仲夏夜之梦",
+        "category":"微咸的海盐和醇厚的稀奶油形成口感上的奇妙搭配，配合缤纷水果的点缀，酸酸甜甜带来幸福。",
+        "Price":"168.00",
+        "kind":"慕斯稀奶油",
+        "size":["6英寸","8英寸","10英寸","12英寸"],
+        "Varieties":"1"
+    },
+    {   
+        "lid":"3",
+        "ltpx":["images/ltp3.1.jpg","images/ltp3.2.jpg","images/ltp3.3.jpg"],
+        "ltpd":["images/ltp3.4.jpg","images/ltp3.5.jpg","images/ltp3.6.jpg","images/ltp3.7.jpg","images/ltp3.8.jpg"],
+        "name":"仲夏夜之梦",
+        "category":"微咸的海盐和醇厚的稀奶油形成口感上的奇妙搭配，配合缤纷水果的点缀，酸酸甜甜带来幸福。",
+        "Price":"168.00",
+        "kind":"慕斯稀奶油",
+        "size":["6英寸","8英寸","10英寸","12英寸"],
+        "Varieties":"1"
+    },
+    {   
+        "lid":"4",
+        "ltpx":["images/ltp4.1.jpg","images/ltp4.2.jpg","images/ltp4.3.jpg"],
+        "ltpd":["images/ltp4.4.jpg","images/ltp4.5.jpg","images/ltp4.6.jpg","images/ltp4.7.jpg","images/ltp4.8.jpg"],
+        "name":"朗姆咖啡慕斯",
+        "category":"调入白兰地提味的咖啡慕斯蛋糕,酒香馥郁，与各种水果搭配,醉人美味在舌尖绽放。",
+        "Price":"158.00",
+        "kind":"慕斯稀奶油",
+        "size":["6英寸","8英寸","10英寸"],
+        "Varieties":"1"
+    },
+    {   
+        "lid":"5",
+        "ltpx":["images/ltp5.1.jpg","images/ltp5.2.jpg","images/ltp5.3.jpg"],
+        "ltpd":["images/ltp5.4.jpg","images/ltp5.5.jpg","images/ltp5.6.jpg","images/ltp5.7.jpg","images/ltp4.8.jpg"],
+        "name":"草莓缇娜花园",
+        "category":"酸甜的草莓、稀奶油的绵密顺滑，君度力娇酒的苦涩带甘与细腻香草味慕斯相融合，浓郁香滑。加上满满的巴旦木，口感层次丰富。",
+        "Price":"168.00",
+        "kind":"慕斯稀奶油",
+        "size":["6英寸","8英寸"],
+        "Varieties":"1"
+    },
+    {   
+        "lid":"6",
+        "ltpx":["images/ltp6.1.jpg","images/ltp6.2.jpg","images/ltp6.3.jpg"],
+        "ltpd":["images/ltp5.4.jpg","images/ltp6.5.jpg","images/ltp6.6.jpg","images/ltp6.7.jpg","images/ltp4.7.jpg","images/ltp4.8.jpg"],
+        "name":"爱上芒果",
+        "category":"诱人的芒果淋面，配上浓郁香甜的芒果内馅和醇厚口感的稀奶油，每尝一口都是无法拒绝的舌尖诱惑。",
+        "Price":"168.00",
+        "kind":"慕斯稀奶油",
+        "size":["6英寸","8英寸","10英寸","12英寸"],
+        "Varieties":"1"
+    },
+    {   
+        "lid":"7",
+        "ltpx":["images/ltp7.1.jpg","images/ltp7.2.jpg","images/ltp7.3.jpg","images/ltp7.4.jpg","images/ltp7.5.jpg"],
+        "ltpd":["images/ltp5.4.jpg","images/ltp7.6.jpg","images/ltp7.6.jpg","images/ltp7.7.jpg","images/ltp4.7.jpg","images/ltp4.8.jpg"],
+        "name":"鲜莓雪舞",
+        "category":"浓情巧克力慕斯，覆盆子奶冻，醇香稀奶油碰撞出奇妙口感，令人怦然心动。",
+        "Price":"158.00",
+        "kind":"慕斯稀奶油",
+        "size":["6英寸","8英寸","10英寸"],
+        "Varieties":"1"
+    },
+    {   
+        "lid":"8",
+        "ltpx":["images/ltp7.1.jpg","images/ltp7.2.jpg","images/ltp7.3.jpg","images/ltp7.4.jpg","images/ltp7.5.jpg"],
+        "ltpd":["images/ltp5.4.jpg","images/ltp7.6.jpg","images/ltp7.6.jpg","images/ltp7.7.jpg","images/ltp4.7.jpg","images/ltp4.8.jpg"],
+        "name":"鲜莓雪舞",
+        "category":"浓情巧克力慕斯，覆盆子奶冻，醇香稀奶油碰撞出奇妙口感，令人怦然心动。",
+        "Price":"158.00",
+        "kind":"慕斯稀奶油",
+        "size":["6英寸","8英寸","10英寸"],
+        "Varieties":"1"
+    },
+    {   
+        "lid":"9",
+        "ltpx":["images/ltp8.1.jpg","images/ltp8.2.jpg","images/ltp8.3.jpg"],
+        "ltpd":["images/ltp5.4.jpg","images/ltp8.4.jpg","images/ltp8.5.jpg","images/ltp7.7.jpg","images/ltp4.7.jpg","images/ltp4.8.jpg"],
+        "name":"硕果满园",
+        "category":"柔软的戚风蛋糕，搭配巧克力慕斯与覆盆子奶冻，被香酥手指饼紧紧包围，令人心动的硕果满园。",
+        "Price":"218.00",
+        "kind":"慕斯稀奶油",
+        "size":["8英寸","10英寸"],
+        "Varieties":"1"
+    },
+    {   
+        "lid":"10",
+        "ltpx":["images/ltp9.1.jpg","images/ltp9.2.jpg"],
+        "ltpd":["images/ltp1.4.jpg","images/ltp9.3.jpg","images/ltp9.4.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+        "name":"甜蜜之约",
+        "category":"香浓的巧克力味胚芽乳脂奶油，内层是柔软的蛋糕胚，配上爽滑果冻与多种水果，浓烈与清新的全新体验。",
+        "Price":"218.00",
+        "kind":"胚芽乳植脂奶油",
+        "size":["8英寸","10英寸","12英寸","14英寸"],
+        "Varieties":"1"
+    },
+    {   
+        "lid":"11",
+        "ltpx":["images/ltp10.1.jpg","images/ltp10.2.jpg","images/ltp10.3.jpg","images/ltp10.4.jpg","images/ltp10.5.jpg"],
+        "ltpd":["images/ltp1.4.jpg","images/ltp10.6.jpg","images/ltp10.7.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+        "name":"鲜果奇缘",
+        "category":"清新草莓邂逅可爱蓝莓，酸甜升级，撒上果仁碎粒，与柔软蛋糕交织出层叠美味。",
+        "Price":"218.00",
+        "kind":"稀奶油",
+        "size":["直径17.5cm"],
+        "Varieties":"1"
+    },
+    {   
+        "lid":"12",
+        "ltpx":["images/ltp11.1.jpg"],
+        "ltpd":["images/ltp11.2.jpg","images/ltp11.3.jpg","images/ltp11.4.jpg","images/ltp11.5.jpg","images/ltp11.6.jpg"],
+        "name":"可口脆",
+        "category":"优选原料，金黄酥脆不油腻，保留土司原有风味",
+        "Price":"6.50",
+        "kind":"零食",
+        "size":["番茄味","奶香玉米味","青柠胡椒味","芝士味","烧烤味"],
+        "Varieties":"0"
+    },
+    {   
+        "lid":"13",
+        "ltpx":["images/ltp12.1.jpg","images/ltp12.2.jpg","images/ltp12.3.jpg","images/ltp12.4.jpg","images/ltp12.5.jpg"],
+        "ltpd":["images/ltp12.6.jpg"],
+        "name":"时尚年轮蛋糕",
+        "category":"优选原料，金黄酥脆不油腻，保留土司原有风味",
+        "Price":"4.50",
+        "kind":"零食",
+        "size":["原味","草莓味","巧克力味"],
+        "Varieties":"0"
+    },
+    {   
+        "lid":"14",
+        "ltpx":["images/ltp13.1.jpg","images/ltp13.2.jpg","images/ltp13.3.jpg"],
+        "ltpd":["images/ltp13.4.jpg","images/ltp13.5.jpg","images/ltp13.6.jpg","images/ltp13.7.jpg","images/ltp13.8.jpg","images/ltp13.9.jpg","images/ltp13.10.jpg","images/ltp13.11.jpg","images/ltp13.12.jpg","images/ltp13.13.jpg","images/ltp13.14.jpg"],
+        "name":"GABA鸡蛋胚芽蛋卷",
+        "category":"香酥的金色蛋卷，色泽纯正自然，添加GABA（γ-氨基丁酸），专业烘焙,带来健康安心的食用体验。",
+        "Price":"10.00",
+        "kind":"零食",
+        "size":["5条/每盒"],
+        "Varieties":"0"
+    },
+    {   
+        "lid":"15",
+        "ltpx":["images/ltp14.1.jpg"],
+        "ltpd":["images/ltp14.2.jpg","images/ltp14.3.jpg","images/ltp14.4.jpg","images/ltp14.5.jpg"],
+        "name":"绿豆糕",
+        "category":"儿时的味道 恰到好处自然甜 清甜不腻 每一口自然享受",
+        "Price":"38.00",
+        "kind":"零食",
+        "size":["一份"],
+        "Varieties":"0"
+    },
+    {   
+        "lid":"16",
+        "ltpx":["images/ltp15.1.jpg","images/ltp15.2.jpg"],
+        "ltpd":["images/ltp15.3.jpg","images/ltp15.4.jpg","images/ltp15.5.jpg","images/ltp15.6.jpg","images/ltp15.7.jpg","images/ltp15.8.jpg","images/ltp15.9.jpg"],
+        "name":"蟹派大礼盒",
+        "category":"蟹派是克莉丝汀的明星产品，曾被评为中国名点，金黄酥脆，层层丰富，是伴手礼的精致之选。",
+        "Price":"38.00",
+        "kind":"伴手礼",
+        "size":["原味（15片装）"],
+        "Varieties":"0"
+    },
+    {   
+        "lid":"17",
+        "ltpx":["images/ltp16.1.jpg","images/ltp16.2.jpg","images/ltp16.3.jpg"],
+        "ltpd":["images/ltp16.4.jpg","images/ltp16.5.jpg","images/ltp16.6.jpg","images/ltp16.7.jpg","images/ltp16.8.jpg","images/ltp16.9.jpg","images/ltp16.10.jpg"],
+        "name":"凤梨酥礼盒（6粒装）",
+        "category":"真材实料，精选土凤梨馅，带来土凤梨原有的纤维感，时尚高端大气伴手礼盒。",
+        "Price":"45.00",
+        "kind":"伴手礼",
+        "size":["6粒装土凤梨味"],
+        "Varieties":"0"
+    },
+    {   
+        "lid":"18",
+        "ltpx":["images/ltp17.1.jpg","images/ltp17.2.jpg","images/ltp17.3.jpg"],
+        "ltpd":["images/ltp17.4.jpg","images/ltp17.5.jpg","images/ltp17.6.jpg","images/ltp17.7.jpg","images/ltp17.8.jpg","images/ltp17.9.jpg","images/ltp17.10.jpg"],
+        "name":"凤梨酥礼盒（9粒/12粒装）",
+        "category":"真材实料，精选土凤梨馅，带来土凤梨原有的纤维感，时尚高端大气伴手礼盒。",
+        "Price":"68.00",
+        "kind":"伴手礼",
+        "size":["9粒装土凤梨味","9粒装土凤梨蔓越莓味","9粒装土凤梨咸蛋黄味","12粒装三种口味（各4粒）"],
+        "Varieties":"0"
+    },
+    
+        {
+            "lid":"21",
+            "ltpx":["images/cake/cake1.1.jpg","images/cake/cake1.2.jpg","images/cake/cake1.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"威廉巧克力慕斯",
+            "category":"慕斯中调入朗姆酒，入口清爽柔滑，戚风蛋糕胚的柔软，混合香甜的混合奶油和微苦的可可粉，苦涩带甘甜的味觉冲击，呈现经典而富有层次味道。",
+            "size":["6英寸","8英寸"],
+            "Price":["158.00","218.00"],
+            "kind":"慕斯稀奶油",
+            "Varieties":"1"
+            
+        },
+        {
+            "lid":"22",
+            "ltpx":["images/cake/cake2.1.jpg","images/cake/cake2.2.jpg","images/cake/cake2.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+
+            "name":"唯爱珍言",
+            "category":"奶香扑鼻的稀奶油，入口柔软的蛋糕胚，夹杂着甜蜜果冻。一缕奶香，一丝甜蜜，口感浓郁有回味。",
+            "size":["6英寸","8英寸"],
+            "Price":["158.00","218.00"],
+            "kind":"稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"23",
+            "ltpx":["images/cake/cake3.1.jpg","images/cake/cake3.2.jpg","images/cake/cake3.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+
+            "name":"甜心美莓",
+            "category":"爽滑的果冻布丁，清新菠萝碎，搭配着表层酸酸甜甜的树莓混合奶油，每一口皆是幸福。",
+            "size":["6英寸","8英寸"],
+            "Price":["168.00","228.00"],
+            "kind":"儿童蛋糕",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"24",
+            "ltpx":["images/cake/cake4.1.jpg","images/cake/cake4.2.jpg","images/cake/cake4.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"椰香心语",
+            "category":"诱人巧克力淋面、蛋糕融入法国利口酒的甜、西班牙椰子朗姆的醇，奇妙碰撞凝聚层层滋味。",
+            "size":["8英寸","10英寸","12英寸"],
+            "Price":["228.00","308.00","398.00"],
+            "kind":"慕斯稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"25",
+            "ltpx":["images/cake/cake5.1.jpg","images/cake/cake5.2.jpg","images/cake/cake5.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"满溢香柠",
+            "category":"一口绵密的抹茶奶油，回甘悠长。柠檬味乳酪馅与原味蛋糕胚融为一体，点缀着时令草莓、马卡龙、酸酸甜甜,激活味觉。",
+            "size":["6英寸","8英寸","10英寸","12英寸"],
+            "Price":["158.00","218.00","298.00","388.00"],
+            "kind":"慕斯稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"26",
+            "ltpx":["images/cake/cake6.1.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"熊古力",
+            "category":"选取进口稀奶油、白桃口味果冻与爽滑布蕾布丁搭配出柔滑的惊喜口感，巧克力淋面的香浓诱人，让它更加萌萌惹人爱。",
+            "size":["6英寸","8英寸"],
+            "Price":["158.00","218.00"],
+            "kind":"儿童蛋糕 ",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"28",
+            "ltpx":["images/cake/cake8.1.jpg","images/cake/cake8.2.jpg","images/cake/cake8.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"萌萌熊",
+            "category":"可爱的小熊唤起童心，柔软的戚风和爽滑果冻布丁，伴随着抹茶风味的奶油一起融化在舌尖。",
+            "size":["6英寸","8英寸"],
+            "Price":["168.00","228.00"],
+            "kind":"儿童蛋糕",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"27",
+            "ltpx":["images/cake/cake7.1.jpg","images/cake/cake7.2.jpg","images/cake/cake7.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"鲜果星光",
+            "category":"草莓与蓝莓的酸甜、蛋糕胚的蓬松绵软、搭配着果冻的香甜清爽，属于春天的味道。",
+            "size":["10英寸","12英寸","14英寸","16英寸"],
+            "Price":["218.00","318.00","428.00","538.00"],
+            "kind":"胚芽乳植脂奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"29",
+            "ltpx":["images/cake/cake9.1.jpg","images/cake/cake9.2.jpg","images/cake/cake9.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"福寿齐天",
+            "category":"柔软的蛋糕胚，搭配着什锦水果与内层的爽滑果冻,一颗颗寿桃，寓意着寿比南山。",
+            "size":["12英寸","14英寸","16英寸"],
+            "Price":["368.00","478.00","598.00"],
+            "kind":"胚芽乳植脂奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"210",
+            "ltpx":["images/cake/cake10.1.jpg","images/cake/cake10.2.jpg","images/cake/cake10.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"法香君度慕斯",
+            "category":"芝士混合稀奶油，调入君度力娇酒，别有一番风味。乳酪慕斯的香滑，稀奶油的入口即化,风味与层次，远超所见。",
+            "size":["6英寸","8英寸"],
+            "Price":["168.00","228.00"],
+            "kind":"慕斯稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"211",
+            "ltpx":["images/cake/cake11.1.jpg","images/cake/cake11.2.jpg","images/cake/cake11.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"朗姆咖啡慕斯",
+            "category":"调入白兰地提味的咖啡慕斯蛋糕,酒香馥郁，与各种水果搭配，醉人美味在舌尖绽放。",
+            "size":["6英寸","8英寸","10英寸"],
+            "Price":["158.00","218.00","298.00"],
+            "kind":"慕斯稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"212",
+            "ltpx":["images/cake/cake12.1.jpg","images/cake/cake12.2.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"经典提拉米苏",
+            "category":"稀奶油的香滑、力娇酒的苦涩带甘、朗姆酒的辛烈，交织成馥郁难忘的意大利风味。",
+            "size":["6英寸","8英寸"],
+            "Price":["158.00","218.00"],
+            "kind":"慕斯稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"213",
+            "ltpx":["images/cake/cake13.1.jpg","images/cake/cake13.2.jpg","images/cake/cake13.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"草莓缇娜花园",
+            "category":"酸甜的草莓、稀奶油的绵密顺滑，君度力娇酒的苦涩带甘与细腻香草味慕斯相融合，浓郁香滑。加上满满的巴旦木，口感层次丰富。",
+            "size":["6英寸","8英寸"],
+            "Price":["168.00","228.00"],
+            "kind":"慕斯稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"214",
+            "ltpx":["images/cake/cake14.1.jpg","images/cake/cake14.2.jpg","images/cake/cake14.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"爱上芒果",
+            "category":"诱人的芒果淋面，配上浓郁香甜的芒果内馅和醇厚口感的稀奶油，每尝一口都是无法拒绝的舌尖诱惑。",
+            "size":["6英寸","8英寸","10英寸","12英寸"],
+            "Price":["168.00","228.00","308.00","398.00"],
+            "kind":"慕斯稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"215",
+            "ltpx":["images/cake/cake15.1.jpg","images/cake/cake15.2.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"甜蜜之约",
+            "category":"香浓的巧克力味胚芽乳脂奶油，内层是柔软的蛋糕胚，配上爽滑果冻与多种水果，浓烈与清新的全新体验。",
+            "size":["10英寸","12英寸","14英寸","16英寸"],
+            "Price":["218.00","318.00","428.00","538.00"],
+            "kind":"胚芽乳植脂奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"216",
+            "ltpx":["images/cake/cake16.1.jpg","images/cake/cake16.2.jpg","images/cake/cake16.3.jpg","images/cake/cake16.4.jpg","images/cake/cake16.5.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"莓果精灵",
+            "category":"绵软的蛋糕胚搭配丝滑稀奶油，清新淡雅，回味无穷。",
+            "size":["6英寸","8英寸","10英寸"],
+            "Price":["168.00","228.00","298.00"],
+            "kind":"稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"217",
+            "ltpx":["images/cake/cake17.1.jpg","images/cake/cake17.2.jpg","images/cake/cake17.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"仲夏夜之梦",
+            "category":"微咸的海盐和醇厚的稀奶油形成口感上的奇妙搭配，配合缤纷水果的点缀，酸酸甜甜带来幸福。",
+            "size":["6英寸","8英寸","10英寸","12英寸"],
+            "Price":["168.00","228.00","308.00","398.00"],
+            "kind":"慕斯稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"218",
+            "ltpx":["images/cake/cake18.1.jpg","images/cake/cake18.2.jpg","images/cake/cake18.3.jpg","images/cake/cake18.4.jpg","images/cake/cake18.5.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"蓝莓香颂",
+            "category":"醇香润滑的稀奶油，蓝莓果粒，松软绵密的可可蛋糕，层层滋味瞬间冲击味蕾。",
+            "size":["直径17.5cm"],
+            "Price":["218.00"],
+            "kind":"稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"219",
+            "ltpx":["images/cake/cake19.1.jpg","images/cake/cake19.2.jpg","images/cake/cake19.3.jpg","images/cake/cake19.4.jpg","images/cake/cake19.5.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"洛林甜心",
+            "category":"醇厚的稀奶油混合着法式海盐风味的夹心内陷，甜而不腻，丝丝入味，呼应着草莓的酸甜，层层滋味清新怡人。",
+            "size":["6英寸","8英寸","10英寸"],
+            "Price":["158.00","218.00","298.00"],
+            "kind":"慕斯稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"220",
+            "ltpx":["images/cake/cake20.1.jpg","images/cake/cake20.2.jpg","images/cake/cake20.3.jpg","images/cake/cake20.4.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"香芒物语",
+            "category":"绵密稀奶油搭配原味蛋糕胚，碰撞出美妙的惊喜，芒果慕斯夹心，汇合在稀奶油中，甜蜜之余夹带奶香。",
+            "size":["6英寸","8英寸","10英寸"],
+            "Price":["158.00","218.00","298.00"],
+            "kind":"慕斯稀奶油",
+            "Varieties":"1"
+    
+        },
+        {
+            "lid":"221",
+            "ltpx":["images/cake/cake21.1.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+"name":"可口脆",
+            "category":"优选原料，金黄酥脆不油腻，保留土司原有风味",
+            "size":["番茄味","奶香玉米味","青柠胡椒味","芝士味","烧烤味"],
+            "Price":["6.50","6.50","6.50","6.50","6.50"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"222",
+            "ltpx":["images/cake/cake22.1.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"风味曲奇饼干",
+            "category":"不止为了口腹之欲 为了犒赏你体内万亿个工作细胞 香酥美味与夹心",
+            "size":["香椰巧克力味","肉松味"],
+            "Price":["12.00","12.00"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"223",
+            "ltpx":["images/cake/cake23.1.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"桶装年轮蛋糕",
+            "category":"层层烘烤 柔软心意绵密封存 清甜口感 包裹着鸡蛋奶油浓香",
+            "size":["一份"],
+            "Price":["23.80"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"224",
+            "ltpx":["images/cake/cake24.1.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"绿豆糕",
+            "category":"儿时的味道 恰到好处自然甜 清甜不腻 每一口自然享受",
+            "size":["一份"],
+            "Price":["38.00"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"225",
+            "ltpx":["images/cake/cake25.1.jpg","images/cake/cake25.1.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+"name":"Gaba胚芽乳",
+            "category":"不仅仅是胚芽乳 她的神奇之处还在于。。",
+            "size":["原味","黑芝麻味","红豆味","椰子味","巧克力味","木瓜味","乳酸菌发酵乳"],
+            "Price":["9.60","7.90","7.90","7.90","7.90","7.90","9.60"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"226",
+            "ltpx":["images/cake/cake26.1.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"盘叉补差价链接",
+            "category":"盘叉补差价链接 一份5个",
+            "size":["一份"],
+            "Price":["3.00"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"227",
+            "ltpx":["images/cake/cake27.1.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"饼干曲奇芝士棒",
+            "category":"克莉丝汀饼干，色泽诱人，酥香松脆，口感细腻，醇香无限。",
+            "size":["咖啡曲奇饼干","香脆芝士棒","艾蒙塔玛丽酥"],
+            "Price":["12.00","15.00","15.00"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"228",
+            "ltpx":["images/cake/cake28.1.jpg","images/cake/cake28.2.jpg","images/cake/cake28.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+"name":"高膳食纤维饼干",
+            "category":"膳食纤维 好消化 五谷杂粮 休闲零食",
+            "size":["原味","巧克力味"],
+            "Price":["18.00","18.00"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"229",
+            "ltpx":["images/cake/cake29.1.jpg","images/cake/cake29.2.jpg","images/cake/cake29.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+"name":"蟹派小礼盒",
+            "category":"克莉丝汀简装蟹派礼盒传统特产 优质食材 浓郁滋味",
+            "size":["原味","乳酪味"],
+            "Price":["18.00","18.00"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"230",
+            "ltpx":["images/cake/cake30.1.jpg","images/cake/cake30.2.jpg","images/cake/cake30.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+"name":"GABA鸡蛋胚芽蛋卷",
+            "category":"香酥的金色蛋卷，色泽纯正自然，添加GABA（γ-氨基丁酸），专业烘焙,带来健康安心的食用体验。",
+            "size":["5条/每盒"],
+            "Price":["10.00"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"231",
+            "ltpx":["images/cake/cake31.1.jpg","images/cake/cake31.2.jpg","images/cake/cake31.3.jpg","images/cake/cake31.4.jpg","images/cake/cake31.5.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"时尚年轮蛋糕",
+            "category":"记载着时间的年轮，记载着时间的佳酿，感受这份深邃，体验这份美味。",
+            "size":["原味","草莓味"],
+            "Price":["4.50","4.50"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"232",
+            "ltpx":["images/cake/cake32.1.jpg","images/cake/cake32.2.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+"name":"克莉丝汀蛋黄酥",
+            "category":"整颗大蛋黄，三十天短保锁鲜，不同的原料搭配，给你带来不同口感。",
+            "size":["原味（三枚装）","肉松味（三枚装）"],
+            "Price":["32.00","32.00"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"233",
+            "ltpx":["images/cake/cake33.1.jpg","images/cake/cake33.2.jpg","images/cake/cake33.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"蒟蒻果冻",
+            "category":"蒟蒻果冻，零脂肪休闲零食，果味十足，QQ弹弹，含GABA植物纤维。",
+            "size":["荔枝味","白桃味","蓝莓味"],
+            "Price":["7.80","7.80","7.80"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"234",
+            "ltpx":["images/cake/cake34.1.jpg","images/cake/cake34.2.jpg","images/cake/cake34.3.jpg","images/cake/cake34.4.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"杂粮年轮蛋糕",
+            "category":"记载着时间的年轮，记载着时间的佳酿，感受这份深邃，体验这份美味。",
+            "size":["酒韵年轮","燕麦年轮","玉米年轮"],
+            "Price":["5.50","5.50","5.50"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"235",
+            "ltpx":["images/cake/cake35.1.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"蒟蒻立式吸吸果冻",
+            "category":"开袋即食，方便快捷，含GABA植物纤维，果汁含量大于30%，香甜爽口，想吃就吃，口感津润。",
+            "size":["葡萄味","蜂蜜柠檬味","菠萝味","蜜桃味"],
+            "Price":["6.80","6.80","6.80","6.80"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"236",
+            "ltpx":["images/cake/cake36.1.jpg","images/cake/cake36.2.jpg","images/cake/cake36.3.jpg","images/cake/cake36.4.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"曲奇饼干",
+            "category":"曲奇饼干口味纯正，馥郁怡人，入口时的甜蜜和奶油散发的醇香，使得每一次和它的接触都令人回味无穷。",
+            "size":["奶油手指形曲奇","奶油菊花形曲奇","巧克力味曲奇"],
+            "Price":["12.00","12.00","12.00"],
+            "kind":"零食",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"237",
+            "ltpx":["images/cake/cake37.1.jpg","images/cake/cake37.2.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+"name":"如意饼",
+            "category":"特色传统美食，色泽诱人，层层酥脆，轻柔的酥香包裹着舌尖，沁入心田。",
+            "size":["原味"],
+            "Price":["5.00"],
+            "kind":"伴手礼",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"238",
+            "ltpx":["images/cake/cake38.1.jpg","images/cake/cake38.2.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+"name":"蟹派大礼盒",
+            "category":"蟹派是克莉丝汀的明星产品，曾被评为中国名点，金黄酥脆，层层丰富，是伴手礼的精致之选。",
+            "size":["原味（15片装）"],
+            "Price":["38.00"],
+            "kind":"伴手礼",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"239",
+            "ltpx":["images/cake/cake39.1.jpg","images/cake/cake39.2.jpg","images/cake/cake39.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"凤梨酥礼盒（6粒装）",
+            "category":"真材实料，精选土凤梨馅，带来土凤梨原有的纤维感，时尚高端大气伴手礼盒。",
+            "size":["6粒装土凤梨味"],
+            "Price":["45.00"],
+            "kind":"伴手礼",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"240",
+            "ltpx":["images/cake/cake40.1.jpg","images/cake/cake40.2.jpg","images/cake/cake40.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"凤梨酥礼盒（9粒/12粒装）",
+            "category":"真材实料，精选土凤梨馅，带来土凤梨原有的纤维感，时尚高端大气伴手礼盒。",
+            "size":["9粒装土凤梨味","9粒装土凤梨蔓越莓味","9粒装土凤梨咸蛋黄味","12粒装三种口味（各4粒）"],
+            "Price":["68.00","68.00","68.00","98.00"],
+            "kind":"伴手礼",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"241",
+            "ltpx":["images/cake/cake41.1.jpg","images/cake/cake41.2.jpg","images/cake/cake41.3.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+"name":"喜蛋宝宝诞生礼",
+            "category":"宝宝诞辰礼，金时喜蛋/红运喜蛋，甄选优质原料，精湛轻手工技艺制作，每一颗都饱含最诚挚美好的祝福，分享幸福的喜悦。",
+            "size":["金时喜蛋","红运喜蛋"],
+            "Price":["8.00","8.00"],
+            "kind":"伴手礼",
+            "Varieties":"0"
+    
+        },
+        {
+            "lid":"242",
+            "ltpx":["images/cake/cake42.1.jpg","images/cake/cake42.2.jpg"],
+            "ltpd":["images/ltp1.4.jpg","images/ltp1.5.jpg","images/ltp1.6.jpg","images/ltp1.7.jpg","images/ltp1.8.jpg"],
+            "name":"年轮蛋糕礼盒装",
+            "category":"选用产自新西兰的安佳黄油，口感绵密又丝滑，采用高品质高密度的蛋黄，经过搅拌与加热成就扎实的口感。",
+            "size":["12袋独立装"],
+            "Price":["68.50"],
+            "kind":"伴手礼",
+            "Varieties":"0"
+    
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+]

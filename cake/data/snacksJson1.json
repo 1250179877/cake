@@ -1,0 +1,123 @@
+[
+    {
+        "aid": "221",
+        "asrc": "images/a40.jpg",
+        "atitle": "可口脆",
+        "afeature": "零食",
+        "aprice": "￥6.50/个"
+    },
+    {
+        "aid": "222",
+        "asrc": "images/a41.jpg",
+        "atitle": "风味曲奇饼干",
+        "afeature": "零食",
+        "aprice": "￥12.00/个"
+    },
+    {
+        "aid": "223",
+        "asrc": "images/a42.jpg",
+        "atitle": "桶装年轮蛋糕",
+        "afeature": "零食",
+        "aprice": "￥28.80/个"
+    },
+    {
+        "aid": "224",
+        "asrc": "images/a43.jpg",
+        "atitle": "绿豆糕",
+        "afeature": "零食",
+        "aprice": "￥38.00/个"
+    },
+    {
+        "aid":"ad"
+    },
+    {
+        "aid": "225",
+        "asrc": "images/a44.jpg",
+        "atitle": "Gaba胚芽乳",
+        "afeature": "慕斯稀奶油",
+        "aprice": "￥9.60/个"
+    },
+    {
+        "aid": "226",
+        "asrc": "images/a45.jpg",
+        "atitle": "盘叉补差价链接",
+        "afeature": "儿童蛋糕",
+        "aprice": "￥3.00/个"
+    },
+    {
+        "aid": "227",
+        "asrc": "images/a46.jpg",
+        "atitle": "饼干曲奇芝士棒",
+        "afeature": "零食",
+        "aprice": "￥12.00/个"
+    },
+    {
+        "aid": "228",
+        "asrc": "images/a47.jpg",
+        "atitle": "高膳食纤维饼干",
+        "afeature": "零食",
+        "aprice": "￥18.00/个"
+    },
+    {
+        "aid":"ad"
+    },
+    {
+        "aid": "229",
+        "asrc": "images/a48.jpg",
+        "atitle": "蟹派小礼盒",
+        "afeature": "零食",
+        "aprice": "￥18.00/份"
+    },
+    {
+        "aid": "230",
+        "asrc": "images/a49.jpg",
+        "atitle": "GABA鸡蛋胚芽蛋卷",
+        "afeature": "零食",
+        "aprice": "￥10.00/份"
+    },
+    {
+        "aid": "231",
+        "asrc": "images/a50.jpg",
+        "atitle": "时尚年轮蛋糕",
+        "afeature": "零食",
+        "aprice": "￥4.50/片"
+    },
+    {
+        "aid": "232",
+        "asrc": "images/a51.jpg",
+        "atitle": "克莉丝汀蛋黄酥",
+        "afeature": "零食",
+        "aprice": "￥32.00/盒"
+    },
+    {
+        "aid":"ad"
+    },
+    {
+        "aid": "233",
+        "asrc": "images/a52.jpg",
+        "atitle": "蒟蒻果冻",
+        "afeature": "零食",
+        "aprice": "￥7.8/个"
+    },
+    {
+        "aid": "234",
+        "asrc": "images/a53.jpg",
+        "atitle": "杂粮年轮蛋糕",
+        "afeature": "零食",
+        "aprice": "￥5.50/个"
+    },
+    {
+        "aid": "235",
+        "asrc": "images/a54.jpg",
+        "atitle": "蒟蒻立式吸吸果冻",
+        "afeature": "零食",
+        "aprice": "￥6.80/个"
+    },
+    {
+        "aid": "236",
+        "asrc": "images/a55.jpg",
+        "atitle": "曲奇饼干",
+        "afeature": "零食",
+        "aprice": "￥12.00/个"
+    }
+]

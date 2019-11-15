@@ -1,0 +1,10 @@
+.l_box_cn>img{
+    width: 100%;
+    height: 100%;
+}
+.l_box_cn{
+    padding: 30px;
+    width: 1140px;
+    background: #eeeeee;
+
+}

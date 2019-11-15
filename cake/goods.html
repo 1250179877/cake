@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/goods.css">
+</head>
+<body>
+    <div class="l_header">
+
+    </div>
+    <div class="l_center">
+            <div class="l_box1 container">
+                <a href="#">继续购物</a>
+            </div>
+            <div class="l_box2 container">
+                <ul>
+                    <li>商品</li>
+                    <li>单价</li>
+                    <li>数量</li>
+                    <li>金额</li>
+                </ul>
+            </div>
+            <div class="l_box3 container l_box3_3" id="l_box8">
+                <h4>普通商品</h4>
+                <!-- <div class="l_box3_1">
+                    <span class="tp"><img src="images/ltp1.3.jpg" alt=""></span>
+                    <span class="l_sp1">
+                        <span>可口脆</span>
+                        <span>类型：烧烤味</span>
+                    </span>
+                    <span class="l_sp2">￥6.50</span>
+                    <span class="l_sp3"><a><img src="images/jiang.png" alt=""></a><input type="text" value="1"><a><img src="images/jia.png" alt=""></a></span>
+                    <span class="l_sp4">￥6.50</span>
+                    <span class="l_sp5"><a>x</a></span>
+                </div> -->
+                
+            </div>
+            <div class="l_box4 container l_box3" id="l_box7"> 
+                    <h4>生鲜商品</h4>
+                    <!-- <div class="l_box3_1">
+                        <span class="tp"><img src="images/ltp1.3.jpg" alt=""></span>
+                        <span class="l_sp1">
+                            <span>可口脆</span>
+                            <span>类型：烧烤味</span>
+                        </span>
+                        <span class="l_sp2">￥6.50</span>
+                        <span class="l_sp3"><a><img src="images/jiang.png" alt=""></a><input type="text" value="1"><a><img src="images/jia.png" alt=""></a></span>
+                        <span class="l_sp4">￥6.50</span>
+                        <span class="l_sp5"><a>x</a></span>
+                    </div> -->
+            </div>
+            <div class="l_box5 container clearfix" id="l_box6">
+                <div class="l_box5_1"><i></i><a>全部删除</a></div>
+                <ul class="l_box5_2">
+                    <li><span>商品金额：￥</span><span class="l_zongjia">1054.50</span></li>
+                    <li><span>活动优惠：</span><span>￥0.00</span></li>
+                    <li><span>合计：￥</span><span class="zj">1054.50</span></li>
+                    <li class="btn"><a href="#">下单结算</a></li>
+                </ul>
+
+            </div>
+    </div>
+    <div class="l_footer"></div>
+<script src="js/jquery.min.js"></script>
+<script src="js/goods.js"></script>
+<script>
+    $(function(){
+    $('.l_header').load('head2.html',function(){});
+    $('.l_footer').load('foot.html',function(){});
+});
+</script>
+</body>
+</html>

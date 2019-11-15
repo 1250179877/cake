@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="icon" href="images/logo.ico" type="image/x-icon">
+		<link rel="stylesheet" href="css/zhuce.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+	</head>
+	<body>
+		<div class="center">
+            <div class="passport-page-wrap clearfix" style="background-image:url(images/big.jpg)">
+               <div class="page">
+               	   <div class="signin">
+               	   	  <div class="signin-title">
+               	   	  	 <span>用户注册</span>
+               	   	  </div>
+               	   	  <form class="dlform" action="php/register.php" method="get" onsubmit="return check_form()">
+               	   	  	   <ul>
+               	   	  	   	  <li class="qaq">
+               	   	  	   	  	<span class="yh">
+               	   	  	   	  		<input class="x-input"  type="text" name="uname" id="uname"	value="" placeholder="请输入用户名"/><font id="unamemsg"></font>
+               	   	  	   	  	</span>
+               	   	  	   	  </li>
+               	   	
+               	   	  	   	  <li class="qaq">
+               	   	  	   	  	 <span class="yh">
+               	   	  	   	  	 	 <input class="x-input"  value="" type="password" name="password" id="rePwd"  maxlength="12"  placeholder="密码:请输入6到12个字符"/><font id="rePwdmsg"></font>
+               	   	  	   	  	 </span>
+               	   	  	   	  </li>
+               	   	  	   	  <li class="qaq">
+               	   	  	   	  	 <span class="yh">
+               	   	  	   	  	 	 <input class="x-input"  type="password"    id="affirm" placeholder="确认密码"/><font id="notarize"></font>
+               	   	  	   	  	 </span>
+               	   	  	   	  </li>
+               	   	  	   	  <li class="qaq">
+               	   	  	   	  	 <span class="yh">
+               	   	  	   	  	 	 <input class="x-input"  value=""  maxlength="11"  name="phone" id ="phoneNum" placeholder="请输入手机号"/><font id="phoneNummsg"></font>
+               	   	  	   	  	 </span>
+               	   	  	   	  </li>
+               	   	  	   	  <!--<li class="qaq">
+               	   	  	   	  	  <span class="form-act">
+               	   	  	   	  	  	<input class="x-input verify-input login-verify-code" type="text" name="verifycode" placeholder="填写验证码" data-caution="请正确填写验证码"  maxlength="4" autocomplete="off" >
+               	   	  	   	  	  	<img src="images/5164.png" alt="验证码" title="点击更换验证码" class="verify-code auto-change-verify-handle" style="width: 60px; height: 30px;">
+               	   	  	   	  	  	<a href="#" class="verify-code auto-change-verify-handle">换一个</a>
+               	   	  	   	  	  </span>
+               	   	  	   	  </li>-->
+               	   	  	   	  <li class="form-item-normal">
+                                   <span class="form-act">
+                                   <button type="submit" class="btn btn-major btn-big" rel="_request"><span><span>注　册</span></span></button>
+                                   <input type="checkbox" style="vertical-align: middle; " id="change"/><span class=".po-r-b">以阅读并同意会员注册和隐私保护政策</span>
+                                   </span>
+                              </li>
+               	   	  	   </ul>	
+               	   	  </form>
+               	   	  
+               	   </div>
+               </div>
+           	
+           </div>
+
+        </div>
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script>
+	var unameIschecked = false;
+	var unameIsOK = false;
+	var repwdIsOK = false;
+	var phoneIsOK = false;
+	var lastpwdIsOK = false;
+    $(function(){
+    	//验证昵称
+		$("#uname").focus(function(){
+			focus_checkuname();
+		}).keyup(function(){
+			$("#unamemsg").text("支持中文、字母、数字组合").removeClass().addClass("info");
+			unameIschecked = false;
+		}).blur(function(){
+			blur_checkuname();
+		})
+    
+        //验证密码
+		$("#rePwd").focus(function(){
+			console.log(1)
+			$("#rePwdmsg").text("建议使用数字和字母的组合").removeClass().addClass("info");
+		}).blur(function(){
+			blur_checkpwd();
+		})
+		
+		//验证手机号
+		$("#phoneNum").focus(function(){
+			$("#phoneNummsg").text("建议输入常用手机号").removeClass().addClass("info");
+		}).blur(function(){
+			blur_checkphone();
+		})
+		
+		//确认密码
+		$("#affirm").focus(function(){
+			$("#notarize").text("再次输入密码").removeClass().addClass("info");
+		}).blur(function(){
+			bulr_notarizepwd();
+		})
+		})
+    function focus_checkuname(){
+		if(!unameIschecked){
+			$("#unamemsg").text("支持中文、字母、数字组合").removeClass().addClass("info");
+		}
+	}
+    
+    function blur_checkuname(){
+		var uname_val = $("#uname").val();
+		if(uname_val != ""){
+			//判断uname_val是否通过
+			if(!unameIschecked){
+				ajax_checkuname(uname_val);
+			}
+		}else{
+			$("#unamemsg").text("");
+			unameIsOK = false;
+		}
+	}
+    function ajax_checkuname(uname_val){
+		//alert(uname_val);
+		$.get("php/checkuname.php",{uname:uname_val},function(data){
+			//alert(typeof data);
+			if(data =="1"){
+				$("#unamemsg").text("该账号已被注册").removeClass().addClass("errormsg");
+				unameIsOK = false;
+			}else{
+				$("#unamemsg").text("√").removeClass().addClass("ok");
+				unameIsOK = true;
+			}
+		});
+		unameIschecked = true;
+	}
+    function blur_checkpwd(){
+		var lpwd = $("#rePwd").val().length;
+		if(lpwd > 0){
+			if(lpwd < 6){
+				$("#rePwdmsg").text("长度在6-20位之间").removeClass().addClass("errormsg");
+				repwdIsOK = false;
+			}else{
+				$("#rePwdmsg").text("√").removeClass().addClass("ok");
+				repwdIsOK = true;
+			}
+		}else{
+			$("#rePwdmsg").text("");
+			repwdIsOK = false;
+		}
+	}
+    function blur_checkphone(){
+    	  var phoneVal = $("#phoneNum").val();
+    	  //console.log(phoneVal)
+		var reg = /^1[34578]\d{9}$/;
+		if(phoneVal != ""){
+			if(!reg.test(phoneVal)){
+				$("#phoneNummsg").text("手机格式有误").removeClass().addClass("errormsg");
+				phoneIsOK = false;
+			}else{
+				$("#phoneNummsg").text("√").removeClass().addClass("ok");
+				phoneIsOK = true;
+			}
+		}else{
+			$("#phoneNummsg").text("");
+			phoneIsOK = false;
+		}
+    }
+    function bulr_notarizepwd(){
+    	var firstpwd = $("#rePwd").val();
+    	var lastpwd = $("#affirm").val();
+    	if (firstpwd==lastpwd) {
+    		 $("#notarize").text("√").removeClass().addClass("ok")
+    		   lastpwdIsOK = true;
+    	} else{
+    		$("#notarize").text("两次密码不一致").removeClass().addClass("errormsg")
+    		   lastpwdIsOK = false;
+    	}
+    }
+
+function check_form(){
+		//console.log($("#change").prop("checked"));
+		if(!unameIsOK){
+			if($("#uname").val() == ""){
+				$("#unamemsg").text("请输入账号").removeClass().addClass("errormsg");
+			}else{
+				
+			}
+			return false;
+		}
+		
+		if(!repwdIsOK){
+			if($("#rePwd").val() == ""){
+				$("#rePwdmsg").text("请输入密码").removeClass().addClass("errormsg");
+			}else{
+				
+			}
+			return false;
+		}
+		if(!phoneIsOK){
+			if($("phoneNum").val() == ""){
+				$("#phoneNummsg").text("请输入手机").removeClass().addClass("errormsg");
+			}else{
+				
+			}
+			return false;
+		}
+		if(!lastpwdIsOK){
+		if($("#affirm").val() != $("#rePwd").val()){
+			$("#rePwdmsg").text("密码不一致").removeClass().addClass("errormsg");
+		}else{
+			
+		}
+		return false;
+	}
+		if(!($("#change")[0].checked)){
+			alert("请勾选协议")
+			return false;
+		}
+		if(unameIsOK && repwdIsOK && phoneIsOK && lastpwdIsOK && ($("#change").prop("checked"))){
+			alert("欢迎注册！");
+			return true;
+		}else{
+			alert("请检查信息！");
+			return false;
+		}
+	}
+	</script>
+</html>

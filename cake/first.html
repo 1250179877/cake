@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="icon" href="images/logo.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/home.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+</head>
+
+<body>
+	<div id="nav"></div>
+	<div class="container">
+		<div class="index-banner">
+			<div class="page">
+				<div class="main-slide" id="main_slide"
+					style="width: 1920px; height: 700px; margin-left: -360px; position: relative;">
+					<ul class="slide-list" style="position: absolute; width: 1920px;">
+						<li class="slide-item" style="float: left;">
+							<a href="" target="_blank">
+								<img src="images/banner.gif" alt="">
+							</a>
+						</li>
+					</ul>
+					<ul class="slide-triggers">
+						<li class="trigger-item active"></li>
+
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<div class="ad-list" style="margin-top: -50px;position:relative;z-index:1;">
+			<ul>
+				<li class="item-1">
+					<a href=""> <img src="images/c1.jpg" alt="新品上市" width="562" height="278">
+
+					</a>
+				</li>
+				<li class="item-2">
+					<a href=""> <img src="images/c2.jpg" alt="新品上市" width="562" height="278">
+
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="list-div">
+			<div class="title">
+				<h3>蛋 糕<i>/</i><em>Cake</em></h3>
+			</div>
+			<div class="you">
+				<div class="product-list lists_div page poif qwq">
+					<ul class="colearfix clearfix">
+
+					</ul>
+				</div>
+			</div>
+			  <div class="title">
+			  	<h3>零  食</h3><i>/</i><em>Snack</em></h3>
+			  </div>
+			  <div style="width:1920px;margin-left:-360px;">
+        
+            <a href="#" target="_blank">
+                <img alt="零 食<i>/</i><em>Snack</em>" width="1920" height="200" src="images/849f34f58dda98292171d3d6cbc676ab2b98b8b6.jpg">
+            </a>
+             
+           </div>
+           <div class="you">
+				<div class="product-list qwq page poif cnm">
+					<ul class="colearfix clearfix">
+
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div id="foot"></div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/cookie.js"></script>
+	<script type="text/javascript">
+		$("#nav").load("head.html");
+		$("#foot").load("foot.html");
+		var datas;
+		$(document).ready(() => {
+			$.ajax({
+				url: 'data/dataJson1.json',
+				type: 'get',
+				success: (res) => {
+					datas = res
+					render(datas);
+
+					//取消前五个数据的懒加载
+
+				}
+			})
+
+
+		})
+		//渲染函数
+		var render = (datas) => {
+			let str;
+			// console.log(ele);
+			if (!!decodeURIComponent(location.search.substr(1)).split("=")[1]) {
+				var name = decodeURIComponent(location.search.substr(1)).split("=")[1];
+
+			} else {
+				var name = '';
+
+			}
+			// console.log(name);
+			$.each(datas, function (index, ele) {
+				// console.log(index);
+				if (ele.aid == "ad") {
+					str = `<li id="ad"></li>`;
+				} else {
+					str = `
+						<li>
+							<div class="goods_pic">
+								<a class='aid' lid="${ele.aid}" href="details.html?lid=${ele.aid}&uname=${name}" id=${ele.aid}>
+									<img src='./${ele.asrc}' id='listImg'>
+								</a>
+							</div>
+							<div class="goods_name">
+								<em>${ele.atitle}</em>
+								<i class="icon_sx"></i>
+								<br>
+								<span class="text-tag">${ele.afeature}</span>
+							</div>
+							<div class="goods_price">
+								<div class="price"><em>${ele.aprice}</em>/个</div>
+								
+							</div>
+						</li>
+						`;
+					}
+				$(".lists_div ul").append(str);
+
+			});
+
+
+
+		}
+			var dataz;
+		$(document).ready(() => {
+			$.ajax({
+				url: 'data/snacksJson1.json',
+				type: 'get',
+				success: (res) => {
+					datas = res
+					render(datas);
+
+					//取消前五个数据的懒加载
+
+				}
+			})
+
+
+		})
+
+		
+//		var render = (dataz) => {
+//			let str;
+//			// console.log(ele);
+//			if (!!decodeURIComponent(location.search.substr(1)).split("=")[1]) {
+//				var name = decodeURIComponent(location.search.substr(1)).split("=")[1];
+//
+//			} else {
+//				var name = '';
+//
+//			}
+			// console.log(name);
+//			$.each(dataz, function (index, ele) {
+//				// console.log(index);
+//				if (ele.aid == "ad") {
+//					str = `<li id="ad"></li>`;
+//				} else {
+//					str = `
+//						<li>
+//							<div class="goods_pic">
+//								<a class='aid' lid="${ele.aid}" href="details.html?lid=${ele.aid}&name=${name}" id=${ele.aid}>
+//									<img src='./${ele.asrc}' id='listImg'>
+//								</a>
+//							</div>
+//							<div class="goods_name">
+//								<em>${ele.atitle}</em>
+//								<i class="icon_sx"></i>
+//								<br>
+//								<span class="text-tag">${ele.afeature}</span>
+//							</div>
+//							<div class="goods_price">
+//								<div class="price"><em>${ele.aprice}</em>/个</div>
+//								
+//							</div>
+//						</li>
+//						`;
+//					}
+//				$(".cnm ul").append(str);
+//
+//			});
+//
+//
+//
+//		}
+	</script>
+
+</body>
+
+</html>
